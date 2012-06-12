@@ -24,6 +24,7 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'watchr'
 end
 
 # To use ActiveModel has_secure_password

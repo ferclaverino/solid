@@ -1,4 +1,6 @@
 Solid::Application.routes.draw do
+  resources :product_filters
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
