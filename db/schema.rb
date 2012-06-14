@@ -13,9 +13,4 @@
 
 ActiveRecord::Schema.define(:version => 20120612194626) do
 
-  create_table "product_filters", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
 end

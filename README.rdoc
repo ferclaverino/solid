@@ -4,6 +4,6 @@ A set of examples for learning solid design principles.
 
 * Single Responsability
 * Open Closed
-* Lisskov substitution
+* Liskov substitution
 * Interface segregation
 * Dependency Inversion

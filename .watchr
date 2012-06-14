@@ -9,6 +9,18 @@ def run_spec(file)
   puts
 end
 
+watch("spec/.*/.*/.*/.*/*_spec.rb") do |match|
+  run_spec match[0]
+end
+
+watch("spec/.*/.*/.*/*_spec.rb") do |match|
+  run_spec match[0]
+end
+
+watch("spec/.*/.*/*_spec.rb") do |match|
+  run_spec match[0]
+end
+
 watch("spec/.*/*_spec.rb") do |match|
   run_spec match[0]
 end
